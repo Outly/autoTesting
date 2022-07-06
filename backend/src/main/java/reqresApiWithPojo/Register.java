@@ -1,4 +1,4 @@
-package api;
+package reqresApiWithPojo;
 
 public class Register {
     private String email;

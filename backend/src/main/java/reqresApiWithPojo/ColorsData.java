@@ -1,4 +1,4 @@
-package api;
+package reqresApiWithPojo;
 
 public class ColorsData {
     private Integer id;

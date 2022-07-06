@@ -1,5 +1,4 @@
-package api;
-import java.util.Date;
+package reqresApiWithPojo;
 
 public class UserForUpdateWithDate {
     public String name;

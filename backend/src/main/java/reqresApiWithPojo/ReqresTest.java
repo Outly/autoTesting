@@ -1,4 +1,4 @@
-package api;
+package reqresApiWithPojo;
 import io.restassured.http.ContentType;
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,7 +14,7 @@ public class ReqresTest {
         List<UserData> users = given()
                 .when()
                 .contentType(ContentType.JSON)
-                .get(URL + "api/users?page=2")
+                .get(URL + "reqresApiWithPojo/users?page=2")
                 .then().log().all()
                 .extract().body().jsonPath().getList("data", UserData.class);
         // Для каждого юзера проверяем, что avatar содержит id

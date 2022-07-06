@@ -1,5 +1,5 @@
 package bookingApi;
-import api.Specifications;
+import Specification.Specifications;
 import org.junit.Assert;
 import org.junit.Test;
 import static io.restassured.RestAssured.given;

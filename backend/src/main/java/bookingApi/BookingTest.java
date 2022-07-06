@@ -9,7 +9,7 @@ public class BookingTest {
     private final static String URL = "https://restful-booker.herokuapp.com/";
 
     @Test
-    public void createUserAndGetByIdTest() {
+    public void createBookingAndGetByIdTest() {
         Specifications.installSpecification(Specifications.requestSpec(URL), Specifications.responseSpec(200));
 
         BookingDates bookingDates = new BookingDates("2018-01-01", "2019-01-01");
